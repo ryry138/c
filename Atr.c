@@ -195,7 +195,7 @@ def main():
 
 	while True:
              bots = (random.randint(435,435))
-		sys.stdout.write("\x1b]2;ATRAC. | Devices: [{}] | Spoofed Servers [19]\x07".format (bots))
+		sys.stdout.write("\x1b]2;ATRAC|Devices: [{}]\x07".format (bots))
 		sin = input("\033[1;35m[\033[35m@ATRAC Net\033[1;35m]-\033[35m\033[35m ").lower()
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
